@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "baseUrl": "./",
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["@shelex/cypress-allure-plugin", "cypress", "node"],
+      "noEmit": true
+    },
+    "include": ["**/*.ts"]
+  }
